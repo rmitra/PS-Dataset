@@ -1,5 +1,17 @@
 # PS-Dataset
 
+Sample image pairs from dataset
+
+![alt text](https://github.com/rmitra/PS-Dataset/blob/master/PS-illum.jpg)
+ <br /> Image pair showing illumination variation
+
+![alt text](https://github.com/rmitra/PS-Dataset/blob/master/PS-scale.jpg)
+ <br /> Image pair showing scale variation
+
+![alt text](https://github.com/rmitra/PS-Dataset/blob/master/PS-view.jpg)
+ <br /> Image pair showing viewpoint variation
+
+
 Results -
 
 
