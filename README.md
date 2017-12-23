@@ -1,19 +1,21 @@
 # PS-Dataset
+# A Large Dataset for improving Patch Matching
 
 Sample image pairs from dataset
-
+### Image pair showing illumination variation
 ![alt text](https://github.com/rmitra/PS-Dataset/blob/master/PS-illum.jpg)
- <br /> Image pair showing illumination variation
-
+ <br /> 
+### Image pair showing scale variation
 ![alt text](https://github.com/rmitra/PS-Dataset/blob/master/PS-scale.jpg)
  <br /> Image pair showing scale variation
-
+### Image pair showing viewpoint variation
 ![alt text](https://github.com/rmitra/PS-Dataset/blob/master/PS-view.jpg)
  <br /> Image pair showing viewpoint variation
 
 
-Results -
+### Results -
 
+### Performance comparison for patch retrieval task on HPatches dataset.
 
 | Method\Noise  | Easy  |  Hard | Tough  | Mean  |
 | ----- | ----- | ---- | ----- | ----- |
@@ -23,8 +25,8 @@ Results -
 |Hardnet+| 79.7 | 68.7 | 52.6| 66.7|
 |Hardnet-PS|82.5 | 78.0 |69.1 |76.5|
 
-Performance comparison for patch retrieval task on HPatches dataset.
 
+### Performance comparison for image matching task on Fountain-P11 scene
 
 | Method\Baseline  | Narrow  |  Wide | Very-wide  | Mean  |
 | ----- | ----- | ---- | ----- | ----- |
@@ -33,7 +35,7 @@ Performance comparison for patch retrieval task on HPatches dataset.
 |Hardnet+| 92.4  | 83.2 | 35.0 | 70.2|
 |Hardnet-PS|92.8|85.3|47.0 |75.0|
 
-Performance comparison for image matching task on Fountain-P11 scene
+### Performance comparison for image matching task on Herzjesu-P8 scene
 
 | Method\Baseline  | Narrow  |  Wide  | Mean  |
 | ----- | ----- | ---- | ----- | 
@@ -42,9 +44,9 @@ Performance comparison for image matching task on Fountain-P11 scene
 |Hardnet+| 85.1 | 44.5 | 61.9|
 |Hardnet-PS| 85.1| 50.6 | 65.4|
 
-Performance comparison for image matching task on Herzjesu-P8 scene
 
-Scene statistics
+### Scene statistics
+### Statistics and parameters for each scene in the training set
 
 |Scene Id | No. images | No. points | No. Patches | MIN_V_TH | MAX_V_TH | No. Pairs |
 | ----- | ----- | ---- | ----- | ----- | ----- | ----- |
@@ -74,19 +76,18 @@ Scene statistics
 |91 | 182 | 78961 | 750676 | 12° | 50°  | 1664135|
 |95 | 201 | 21677 | 106001 | 10° | 72°  | 110641|
 
-Statistics and parameters for each scene in the training set
 
+### Statistics and parameters for each scene in the validation set
 
 |Scene Id | No. images | No. points | No. Patches | MIN_V_TH | MAX_V_TH  | No. Pairs |
 | ----- | ----- | ---- | ----- | ----- | ----- | ---- |
 |4 | 264 | 107549 | 602331 | 10° | 50°  | 965990 |
-
 |23 | 249 | 66492 | 328555 | 10° | 50° |576180 |
-
 |31 | 262 | 25451 | 164984 | 10° | 50°  | 147734|
-
 |44 | 87 | 57944 | 157953 | 3° | 72°  | 98134 |
-
 |88 | 99 | 4850 |54781 | 5° |50°  | 235524 |
 
-Statistics and parameters for each scene in the validation set
+
+
+### Contributors - 
+Rahul Mitra, Nehal Doiphode, Utkarsh Gautam, Sanath Narayan, Shuaib Ahmed, Sharat Chandran, Arjun Jain
