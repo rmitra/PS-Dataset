@@ -7,14 +7,13 @@ Sample image pairs from dataset
  <br /> 
 ### Image pair showing scale variation
 ![alt text](https://github.com/rmitra/PS-Dataset/blob/master/PS-scale.jpg)
- <br /> Image pair showing scale variation
+ <br /> 
 ### Image pair showing viewpoint variation
 ![alt text](https://github.com/rmitra/PS-Dataset/blob/master/PS-view.jpg)
- <br /> Image pair showing viewpoint variation
+ <br /> 
 
 
 ### Results -
-
 ### Performance comparison for patch retrieval task on HPatches dataset.
 
 | Method\Noise  | Easy  |  Hard | Tough  | Mean  |
@@ -45,7 +44,7 @@ Sample image pairs from dataset
 |Hardnet-PS| 85.1| 50.6 | 65.4|
 
 
-### Scene statistics
+### Scene statistics-
 ### Statistics and parameters for each scene in the training set
 
 |Scene Id | No. images | No. points | No. Patches | MIN_V_TH | MAX_V_TH | No. Pairs |
