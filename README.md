@@ -86,6 +86,9 @@ Sample image pairs from dataset
 |44 | 87 | 57944 | 157953 | 3° | 72°  | 98134 |
 |88 | 99 | 4850 |54781 | 5° |50°  | 235524 |
 
+
+### (https://github.com/rmitra/PS-Dataset/blob/master/PreTrainedModel.md "Using Pre-Trained Model")
+
 ### Link to paper -
 https://arxiv.org/abs/1801.01466
 
