@@ -13,6 +13,8 @@ network:evaluate()
 descriptor = network:forward\(p\)
 
 
+## Link to model trained using PS dataset in PyTorch
+#### https://www.dropbox.com/s/1p9e8vtf57gl9jc/PyTorch-hardnet-PS-CPU.pth?dl=1
 
 
 
