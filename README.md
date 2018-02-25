@@ -1,6 +1,18 @@
 # PS-Dataset
 # A Large Dataset for improving Patch Matching
 
+
+### [Using Pre-Trained Model](https://github.com/rmitra/PS-Dataset/blob/master/PreTrainedModel.md)
+
+### [Using Our Dataset](https://github.com/rmitra/PS-Dataset/blob/master/DownloadDataset.md)
+
+### Link to paper -
+https://arxiv.org/abs/1801.01466
+
+### Contributors - 
+Rahul Mitra, Nehal Doiphode, Utkarsh Gautam, Sanath Narayan, Shuaib Ahmed, Sharat Chandran, Arjun Jain
+
+
 Sample image pairs from dataset
 ### Image pair showing illumination variation
 ![alt text](https://github.com/rmitra/PS-Dataset/blob/master/PS-illum.jpg)
@@ -85,12 +97,3 @@ Sample image pairs from dataset
 |31 | 262 | 25451 | 164984 | 10° | 50°  | 147734|
 |44 | 87 | 57944 | 157953 | 3° | 72°  | 98134 |
 |88 | 99 | 4850 |54781 | 5° |50°  | 235524 |
-
-
-### [Using Pre-Trained Model](https://github.com/rmitra/PS-Dataset/blob/master/PreTrainedModel.md)
-
-### Link to paper -
-https://arxiv.org/abs/1801.01466
-
-### Contributors - 
-Rahul Mitra, Nehal Doiphode, Utkarsh Gautam, Sanath Narayan, Shuaib Ahmed, Sharat Chandran, Arjun Jain
