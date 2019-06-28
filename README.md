@@ -1,10 +1,10 @@
 # PS-Dataset
 # A Large Dataset for improving Patch Matching
 
-
 ### [Using Pre-Trained Model](https://github.com/rmitra/PS-Dataset/blob/master/PreTrainedModel.md)
 
 ### [Using Our Dataset](https://github.com/rmitra/PS-Dataset/blob/master/DownloadDataset.md)
+### [Added Full Resolution RGB Images]
 
 ### Link to paper -
 https://arxiv.org/abs/1801.01466
