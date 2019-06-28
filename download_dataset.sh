@@ -18,7 +18,7 @@ for SC in $SCENE_LIST; do
 
 		FILE_PATH=$REMOTE_SC_DIR/$FILE_TYPE
 		echo $FILE_PATH
-		wget -P $DOWNLOAD_SC_DIR $FILE_PATH
+		wget -P $DOWNLOAD_SC_DIR -nH --cut-dirs 2 $FILE_PATH
 	done
-
+	wget -r -np -nH -A jpeg,jpg,png -P $DOWNLOAD_SC_DIR --cut-dirs 2 $REMOTE_SC_DIR/images/
 done
